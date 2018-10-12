@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'K2D', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.DIV{
+    background-image:url("image/slider/slide-bg-1.jpg");
+}
+/*bu hisseden ashagi navigationu ehate edir */
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+header ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+header ul li a:hover{
+    border-bottom: 1px solid white;
+    -webkit-transition: 2s ease-in-out;
+}
+header ul li a{
+   text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px ;
+    font-size: 15px;
+    font-weight: 500;
+}
+/*bu hisseden ashagi menunu ehate eddir*/
+menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.information{
+    width: 35%;
+}
+.information p:first-child{
+    color: white;
+    font-size: 37px;
+    text-align: center;
+}
+.information p:nth-child(2){
+    color: white;
+}
+.information i{
+    font-size: 20px;
+}
+.information button{
+    display: inline-block;
+    background-color: #863F51;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+    padding: 15px;
+    margin: 3%;
+}
+
+.view{
+    width: 60%;
+    display: flex;
+   justify-content: center;
+}
+/*Bu hisseden ashagi ise menuDown ucun nezerde tutulun*/
+.menuDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F5F4F3 !important;
+    padding: 7% 2%;
+}
+.aboutText{
+    width: 40%;
+}
+.aboutImage{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+.menuDown p{
+    line-height:36px;
+}
+.menuDown button{
+    background-color: #863F51;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 27px;
+    margin: 10px;
+}
+/*butun buttonlar ucun kecerlidir*/
+    button:hover{
+        background-color: white;
+        color: #863F51;
+        -webkit-transition: 0.2s linear;
+    }
+    /*section1 hissesi*/
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       padding: 6% 23% 3%;
+
+    }
+    .section1 img{
+        margin: 3% auto 1%;
+    }
+    .section1 p,h1{
+        text-align: center;
+        line-height: 30px;
+    }
+    /*section2 hissesi*/
+    .section2{
+        display: flex;
+       flex-flow: row wrap;
+        justify-content: center;
+    }
+    .section2 div{
+        width: 30%;
+        height: 28%;
+    }
+    .section2 div h3,p{
+        text-align: center;
+        margin: 5%;
+        line-height: 30px;
+    }
+    .section2 div p > i{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        padding: 7%;
+        font-size: 17px;
+        background-color: #932E48;
+        color: white;
+    }
+    /*section3 hissesi */
+.section3{
+    background-image: url("image/bg/video-banner.png");
+    background-size: 100% 100%;
+    padding: 6% 0 12%;
+    position: relative;
+}
+.section3 .firstDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .firstDiv h2{
+    color: white;
+    margin: 1%;
+    font-weight: normal;
+    text-align: center;
+}
+    .section3 .secondDiv{
+        width: 86%;
+        height: 33%;
+        background-image: url("image/bg/project-bg.png");
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        left: 7%;
+        bottom: -78px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+
+    }
+.section3 .secondDiv div{
+    width: 18%;
+}
+
+    .section3 .secondDiv div h2, .lorem{
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+    }
+    /*ikinci secton1 hissesi */
+.doubleSection{
+    padding-top:17%;
+}
+/*pul kart hissesi*/
+.money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .money div{
+         width: 21%;
+        height:100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        padding: 10px;
+        margin: 0 10px;
+        border-radius: 4px;
+    }
+    .money div:first-child>h5,div:last-child>h5{
+        color: #932E48;
+
+    }
+    .money div h5,h1,h6,p{
+        margin: 20px;
+        line-height: 40px;
+    }
+    .money div:first-child>button , div:last-child>button{
+        border: 1px solid #932E48;
+        font-weight: lighter;
+        color: #932E48;
+        border-radius: 30px;
+        background-color: white;
+        padding: 6% 17%;
+        margin-bottom: 25px;
+        margin-top: 13px;
+    }
+        .money >.center>button{
+            border: 1px solid white;
+            font-weight: lighter;
+            color: white;
+            border-radius: 30px;
+            background-color: #932E48;
+            padding: 6% 17%;
+            margin-top: 25px;
+        }
+    .money >.center{
+        background-color: #932E48;
+        color: white;
+        height: 100%;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+
