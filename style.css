@@ -8,6 +8,7 @@ body{
 }
 .DIV{
     background-image:url("image/slider/slide-bg-1.jpg");
+    height: 130vh;
 }
 /*bu hisseden ashagi navigationu ehate edir */
 header{
@@ -36,33 +37,33 @@ header ul li a{
 /*bu hisseden ashagi menunu ehate eddir*/
 menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
 }
 .information{
-    width: 35%;
+    width: 30%;
 }
 .information p:first-child{
     color: white;
     font-size: 37px;
-    text-align: center;
+    text-align: left;
 }
 .information p:nth-child(2){
     color: white;
+    text-align: left;
 }
 .information i{
-    font-size: 20px;
+    font-size: 18px;
 }
 .information button{
     display: inline-block;
     background-color: #863F51;
     box-sizing: border-box;
-    border: 2px solid gray;
+    border: 2px solid white;
     color: white;
     border-radius: 30px;
-    border-color: white;
-    padding: 15px;
+    padding: 10px 14px;
     margin: 3%;
 }
 
@@ -71,7 +72,7 @@ menu{
     display: flex;
    justify-content: center;
 }
-/*Bu hisseden ashagi ise menuDown ucun nezerde tutulun*/
+/*Bu hisseden ashagi ise menuDown ucun nezerde tutulub*/
 .menuDown{
     display: flex;
     flex-direction: row;
@@ -80,7 +81,7 @@ menu{
     padding: 7% 2%;
 }
 .aboutText{
-    width: 40%;
+    width: 39%;
 }
 .aboutImage{
     width: 55%;
@@ -88,7 +89,8 @@ menu{
     justify-content: center;
 }
 .menuDown p{
-    line-height:36px;
+    line-height:30px;
+    text-align: left;
 }
 .menuDown button{
     background-color: #863F51;
@@ -182,6 +184,9 @@ menu{
 .section3 .secondDiv div{
     width: 18%;
 }
+.section3 .secondDiv div p{
+    margin-top:0;
+}
 
     .section3 .secondDiv div h2, .lorem{
         color: white;
@@ -194,18 +199,20 @@ menu{
 }
 /*pul kart hissesi*/
 .money{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
     .money div{
-         width: 21%;
-        height:100%;
+        width: 21%;
+        height:73vh;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
         padding: 10px;
         margin: 0 10px;
         border-radius: 4px;
+
     }
     .money div:first-child>h5,div:last-child>h5{
         color: #932E48;
@@ -222,9 +229,14 @@ menu{
         border-radius: 30px;
         background-color: white;
         padding: 6% 17%;
-        margin-bottom: 25px;
         margin-top: 13px;
     }
+        .money >.center{
+            background-color: #932E48;
+            color: white;
+            height: 76vh !important;
+            padding-top: 6vh;
+        }
         .money >.center>button{
             border: 1px solid white;
             font-weight: lighter;
@@ -232,14 +244,586 @@ menu{
             border-radius: 30px;
             background-color: #932E48;
             padding: 6% 17%;
-            margin-top: 25px;
+            margin-top: 13px;
         }
-    .money >.center{
-        background-color: #932E48;
-        color: white;
-        height: 100%;
-        padding-top: 30px;
-        padding-bottom: 60px;
-    }
-    /*davami olacaq*/
 
+    /*a part of custom*/
+    .custom{
+        background-image: url("image/bg/04.jpg");
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 140px 170px 70px ;
+    }
+    .custom p,h4{
+        color: white !important;
+    }
+    .custom div img:first-child{
+        border-radius: 50%;
+       margin-bottom:13px;
+        margin-top:13px;
+
+    }
+    .stars i{
+        color: yellow !important;
+        margin-top: 10px;
+    }
+    .circle i{
+        color: white;
+    }
+/*section 4 hissesi*/
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:34px 0;
+}
+    /* a part of phones*/
+.iphones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 87vh;
+}
+    .iphoneCricle i{
+        color: #932E48;
+        font-size: 12px;
+    }
+
+    /*team*/
+.section5{
+    background-color: #ECECEC;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+    .newSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10vh;
+    }
+.section5 > .team > div{
+    background-color: white;
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+.section5 > .team p,h5{
+    color: black !important;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* a part of last section*/
+
+    .relativeDive{
+        height: 100vh;
+        background-image: url("image/bg/03.jpg");
+        background-size: 100% 100%;
+        position: relative;
+    }
+    .lastSection{
+        padding-top: 7vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        padding-top: 3vh;
+    }
+    .buttons button{
+        padding: 13px;
+        border-radius: 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: white;
+        margin: 0 8px;
+    }
+    .buttons i{
+        color: #932E48;
+        margin-right: 8px;
+        box-sizing: border-box;
+        font-size: 19px;
+    }
+    .area{
+        background-color: white;
+        width: 80vw;
+        height: 90vh;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        bottom: -51vh;
+        left: 10vw;
+
+    }
+    .area1{
+        width: 45%;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .area1 h5{
+        margin: 10px 0 10px 20px;
+    }
+    .area1 i{
+        border-radius: 50%;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 3px;
+        font-size: 17px;
+            }
+    .area2{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .area2 input[type=text],input[type=email],textarea{
+      padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .area2 input[type=submit]{
+        background-color: black;
+        color: white;
+        width: 8vw;
+        height: 6vh;
+        border: none;
+        border-radius: 20px;
+        margin: 7px;
+    }
+    footer{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        padding: 50px 0;
+        background-color: #131313;
+    }
+    footer p{
+        margin: 0;
+    }
+    footer > div > i{
+        border:2px solid white;
+        padding:8px;
+        border-radius: 50%;
+        font-size: 17px;
+        margin: 0 4px;
+    }
+    .sosialContact i:nth-of-type(1):hover{
+       color: #2307B0;
+        border-color: #2307B0;
+        transition: 0.3s ease;
+    }
+
+.sosialContact i:nth-of-type(2):hover{
+    color: #2875FD;
+    border-color: #2875FD;
+    transition: 0.3s ease;
+}
+.sosialContact i:nth-of-type(3):hover{
+    color: #00E407;
+    border-color: #00E407;
+    transition: 0.3s ease;
+}
+.sosialContact i:nth-of-type(4):hover{
+    color: #F90AEE;
+    border-color: #F90AEE;
+    transition: 0.3s ease;
+}
+.sosialContact i:nth-of-type(5):hover{
+    color: #FF5733;
+    border-color: #FF5733;
+    transition: 0.3s ease;
+}
+
+
+
+/*Veeee nehayet responsive hisseni buradan ashagida edeceyik*/
+
+    @media only screen and (max-width: 876px) {
+        .DIV{
+            height: 60vh;
+        }
+        header ul li a{
+            font-size: 10px;
+            margin-left: 8px;
+            margin-right: 8px ;
+        }
+        header .logo img{
+            width: 50%;
+        }
+        .information p:first-child{
+            font-size: 18px;
+        }
+        .information p:nth-child(2){
+          font-size: 10px;
+        }
+        .view img{
+            width: 50%;
+            height: 50%;
+        }
+        .information{
+            width: 40%;
+        }
+        .view{
+            width: 40%;
+        }
+        .information button{
+            font-size: 10px;
+            border: 1px solid white;
+            padding: 6px 10px;
+            margin: 3%;
+        }
+        .information i{
+            font-size: 13px;
+        }
+        .menuDown{
+            height: 35vh;
+        }
+        .menuDown .aboutImage img{
+            height: 35vh;
+        }
+        .menuDown p{
+            line-height:15px;
+           font-size: 10px;
+        }
+        .menuDown h1{
+           font-size: 20px;
+        }
+        .aboutImage{
+            width: 40%;
+        }
+        .aboutText{
+            width: 60%;
+        }
+        .aboutText button{
+            font-size: 8px;
+            font-weight: normal;
+            border-radius: 16px;
+            padding: 8px 17px;
+            margin: 4px;
+        }
+        .section1{
+            padding: 4% 19% 2%;
+        }
+        .section1 img{
+            margin: 1% auto 0;
+        }
+        .section1 p{
+            line-height: 23px;
+            font-size: 10px;
+        }
+        .section1 h1{
+            font-size: 20px;
+            line-height: 22px;
+        }
+        .section2{
+            display: flex;
+            justify-content: space-evenly;
+            height: 60vh;
+        }
+        .section2 div{
+            width: 28%;
+            height: 25%;
+        }
+        .section2 div p{
+            text-align: center;
+            margin: 2%;
+            line-height: 23px;
+            font-size: 10px;
+        }
+        .section2 div h3{
+            text-align: center;
+            margin: 2%;
+            line-height: 25px;
+            font-size: 15px;
+        }
+        .section2 div p > i{
+            width: 17px;
+            height: 16px;
+            border-radius: 50%;
+            padding: 3%;
+            font-size: 9px;
+        }
+        .section3{
+            height: 10vh;
+        }
+        .section3 .firstDiv img {
+          width: 50%;
+            height: 50%;
+        }
+        .section3 .firstDiv h2{
+            margin: 0%;
+            font-size: 17px;
+        }
+        .section3 .secondDiv{
+            width: 86%;
+            height: 33%;
+            background-image: url("image/bg/project-bg.png");
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: absolute;
+            left: 7%;
+            bottom: -78px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 5px;
+
+        }
+        .section3 .secondDiv{
+            width: 85%;
+            height: 25%;
+            bottom: -30px;
+            border-radius: 3px;
+        }
+        .section3 .secondDiv div{
+            width: 18%;
+        }
+        .section3 .secondDiv div p{
+            margin: 0;
+          font-size: 8px;
+        }
+        .section3 .secondDiv div h2{
+            margin: 4px 0 0 0;
+           font-size: 15px;
+        }
+        .doubleSection{
+            height: 20vh;
+        }
+        .money{
+            height: 70vh;
+        }
+        .money div{
+            width: 35vh;
+            height:40vh;
+            padding: 6px;
+            margin: 0 7px;
+            border-radius: 4px;
+
+        }
+        .money div h5,h1,h6,p{
+            margin: 15px;
+            line-height: 18px;
+        }
+        .money div:first-child>button , div:last-child>button{
+            padding: 3% 13%;
+            margin-top: 8px;
+            font-size: 8px;
+        }
+        .money >.center{
+            height: 43vh !important;
+            padding-top: 6vh;
+
+        }
+        .money >.center>button{
+            background-color: #932E48;
+            padding: 3% 13%;
+            margin-top: 7px;
+            font-size: 9px;
+        }
+        .money div p,h5{
+            font-size: 9px;
+        }
+        .money h1 {
+            font-size: 17px;
+        }
+        .money h6{
+            font-size: 10px;
+        }
+        .custom{
+            display: flex;
+            padding: 50px 100px 28px ;
+        }
+        .custom p,h4{
+            color: white !important;
+            font-size: 10px;
+        }
+        .custom div img:first-child{
+            width: 50%;
+            height: 50%;
+            position: relative;
+            left: 25%;
+            margin-bottom:9px;
+            margin-top:9px;
+        }
+        .stars i{
+            color: yellow !important;
+            margin-top: 7px;
+            font-size: 10px;
+        }
+        .circle i{
+            color: white;
+            font-size: 9px;
+        }
+        .section4{
+            padding: 20px 0 7px;
+        }
+        .section4 img{
+           width: 1%;
+        }
+        .section4 h1{
+            font-size: 17px;
+        }
+        .section4 p{
+            font-size: 9px;
+        }
+        .iphones{
+            height: 60vh;
+        }
+        .iphones img{
+            height: 50vh;
+        }
+        .iphoneCricle i{
+            font-size: 8px;
+        }
+        .newSection{
+            margin-bottom: 8vh;
+        }
+        .newSection h1{
+            font-size: 20px;
+        }
+        .newSection img{
+            width: 1%;
+        }
+        .newSection p{
+            font-size: 10px;
+        }
+        .section5{
+            padding-top: 5vh;
+            padding-bottom: 6vh;
+
+        }
+        .team img{
+            width: 100%;
+        }
+        .section5 > .team > div{
+            width: 20%;
+        }
+        .section5 > .team > div>p{
+           font-size: 10px;
+        }
+        .section5 > .team > div>h4{
+            font-size: 10px;
+        }
+        .relativeDive{
+            height: 67vh;
+        }
+        .lastSection{
+            padding-top: 4vh;
+        }
+        .lastSection h1{
+            font-size: 18px;
+        }
+        .lastSection p{
+            font-size: 10px;
+        }
+        .lastSection img{
+           width: 1%;
+        }
+        .buttons{
+            padding-top: 1.5vh;
+        }
+        .buttons button{
+            padding: 7px;
+            font-size: 9px;
+            font-weight: normal;
+            margin: 0 4px;
+        }
+        .buttons i{
+            margin-right: 5px;
+            box-sizing: border-box;
+            font-size: 10px;
+        }
+
+        .area{
+            height: 49vh;
+            bottom: -20vh;
+            display: flex;
+            align-items: flex-start;
+        }
+        .area1{
+            width: 45%;
+            padding-top: 0px;
+        }
+        .area1 h5{
+            margin: 7px 0 7px 15px;
+        }
+        .area1 i{
+            padding: 7px;
+            margin: 2px;
+            font-size: 7px;
+        }
+        .area1 h5{
+            font-size: 7px;
+        }
+        .area1 h1{
+            font-size: 17px;
+        }
+        .area1 p{
+            font-size: 10px;
+            text-align: left;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .area2{
+            width: 46%;
+            padding-top: 9px;
+        }
+        .area2 input[type=text],input[type=email],textarea{
+            padding: 7px;
+            margin: 2px;
+            border-radius: 4px;
+            font-size: 10px;
+        }
+        .area2 textarea{
+            height: 12vh;
+
+        }
+        .area2 input[type=submit]{
+            width: 8vw;
+            height: 5vh;
+            border-radius: 17px;
+            margin: 6px;
+            font-size: 10px;
+        }
+        footer{
+            height: 40vh;
+            padding: 40px 0;
+        }
+        footer p{
+            font-size: 9px;
+        }
+        footer img{
+            width: 20vh;
+        }
+        footer > div > i{
+            padding:6px;
+            font-size: 10px;
+            margin: 2px 2px;
+        }
+    }
