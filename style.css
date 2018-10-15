@@ -465,7 +465,7 @@ menu{
 
 /*Veeee nehayet responsive hisseni buradan ashagida edeceyik*/
 
-    @media only screen and (max-width: 876px) {
+    @media only screen and (max-width: 960px) {
         .DIV{
             height: 60vh;
         }
@@ -580,20 +580,6 @@ menu{
         .section3 .firstDiv h2{
             margin: 0%;
             font-size: 17px;
-        }
-        .section3 .secondDiv{
-            width: 86%;
-            height: 33%;
-            background-image: url("image/bg/project-bg.png");
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            position: absolute;
-            left: 7%;
-            bottom: -78px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            border-radius: 5px;
-
         }
         .section3 .secondDiv{
             width: 85%;
@@ -827,3 +813,4 @@ menu{
             margin: 2px 2px;
         }
     }
+        /*telephone ucun ................*/
